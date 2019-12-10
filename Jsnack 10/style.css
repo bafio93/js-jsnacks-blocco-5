@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#container {
+    height: 100vh;
+    padding-top: 40vh;
+    text-align: center;
+    background-color: orange;
+    animation-name: nice;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#container #outcome {
+    font-size: 250%;
+    color: white;
+}
+
+@keyframes nice {
+    0% {background-color: orange;}
+    50% {background-color: cyan;}
+    100% {background-color: orange;}
+}
